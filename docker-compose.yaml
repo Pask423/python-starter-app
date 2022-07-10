@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  greeter-api:
+    build: .
+    command: greeter-service
+    ports:
+      - "8070:8070"
+    environment:
+      - GREETER_CONFIG_DIR=/greeter-service/config
+      - GREETER_API_PORT=8070

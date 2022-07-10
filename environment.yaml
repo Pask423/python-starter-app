@@ -1,0 +1,10 @@
+name: greeter-service
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.13
+  - pip
+  - fastapi
+  - uvicorn[standard]
+  - hydra-core
+  - pytest

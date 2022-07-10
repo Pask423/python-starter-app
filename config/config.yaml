@@ -1,0 +1,5 @@
+app:
+  port: ${oc.env:GREETER_API_PORT,8070}
+  version: ${oc.env:GREETER_API_VERSION,v1}
+  greet_message: "Hello, "
+
