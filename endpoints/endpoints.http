@@ -1,0 +1,5 @@
+###
+GET http://localhost:8070/v1/greet/Bartek
+
+###
+GET http://localhost:8070/v1/health
